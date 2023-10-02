@@ -28,8 +28,3 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
-
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
-    projects: 'D:\a\r1\a\**\*.zip<br/'
