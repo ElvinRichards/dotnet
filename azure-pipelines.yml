@@ -29,3 +29,6 @@ steps:
     ArtifactName: 'drop'
     publishLocation: 'Container'
 - task: PublishBuildArtifacts@1
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'publish'
